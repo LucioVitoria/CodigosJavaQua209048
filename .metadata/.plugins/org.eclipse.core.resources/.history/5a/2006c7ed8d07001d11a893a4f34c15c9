@@ -1,0 +1,23 @@
+package aulas;
+
+import java.util.Scanner;
+
+public class EntradaDadosTeclado {
+//ctr+shift+o importa automaticamente
+	public static void main(String[] args) {
+
+		Scanner leia = new Scanner(System.in);
+
+		double x = 10.25;
+		
+		System.out.println("x esá valendo: " + x);
+		
+		System.out.println("insira um valor para a variavel x: ");
+		x = leia.nextDouble ();
+		
+		System.out.println(" O valor de x agora está valendo: " + x);
+		
+		leia.close();
+	}
+
+}
