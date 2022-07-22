@@ -22,6 +22,7 @@ public class Calculadora {
 		System.out.println("Sua Multiplicação é = " + multiplicacao);
 		System.out.println("Sua Divisão é = " + divisao);
 
+scan.close();		
 	}
 
 }

@@ -1,0 +1,18 @@
+package aulas;
+
+public class interpolacaoeCondicional {
+
+	public static void main(String[] args) {
+		
+		String nome = "Lucio Vitoria";
+		int idade = 32;
+		double salario = 2300.00;
+		
+		System.out.printf("%s tem: %d e ganha: %.2f, sexo: %c", nome, idade, salario);
+		
+		
+		
+		
+	}
+
+}

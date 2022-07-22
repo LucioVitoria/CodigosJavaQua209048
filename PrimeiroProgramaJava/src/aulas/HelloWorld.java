@@ -25,6 +25,8 @@ public class HelloWorld {
 		System.out.print("Aqui");
 		System.out.print(" vai uma");
 		System.out.print(" mensagem");
+	//crtl + shift + o   para importar oque precisar .
+	
 	}
 
 }

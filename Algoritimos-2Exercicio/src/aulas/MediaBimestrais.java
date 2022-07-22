@@ -33,6 +33,7 @@ public class MediaBimestrais {
 	    //    System.out.println("Aluno em recuperação");}    
 	   //  else { System.out.println("Aluno Reprovado")
 		
+	entrada.close();
 	}
 
 }

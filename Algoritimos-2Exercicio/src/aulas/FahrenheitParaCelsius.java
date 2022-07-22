@@ -19,6 +19,7 @@ public class FahrenheitParaCelsius {
 
 		System.out.printf("Resultado em Graus Celsius: " + c);
 
+		leia.close();
 	}
 
 }

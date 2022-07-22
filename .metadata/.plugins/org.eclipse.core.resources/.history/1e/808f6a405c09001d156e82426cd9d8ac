@@ -1,0 +1,63 @@
+package aulas;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio210722 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in).useLocale(Locale.US);
+		
+		/*int a = 5;
+		int b = 9;
+		int c = 2;
+		
+		Primeiro exercico
+		
+		if (a > b ) {
+		System.out.println("5");
+		}
+		else {
+		System.out.println("9");
+		}	*/	
+		
+		//segundo exercicio
+		
+		int number1;
+		int number2;
+		int number3;
+		
+		int soma;
+		int max;
+		int mim;
+		int numero3 = 0;
+		
+		System.out.print("Digite o primeiro número:   \n");
+		number1 = scan.nextInt();
+		
+		System.out.print("Digite o segundo número:    \n");
+		number2 = scan.nextInt();
+		
+		System.out.print("Digite o terceiro número:   \n");
+		number3 = scan.nextInt();
+		
+	     if (number1 > number2)
+	          number1 = numero3;
+	          number2 = numero3;
+	          else
+	        	  number1 = 
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

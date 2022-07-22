@@ -19,7 +19,7 @@ public class HorasTrabalhadas {
 		resultado = hora * numero;
 		System.out.println("Seu Salario desse Mês: " + resultado);
 		
-		
+		entrada.close();
 	}
 
 }
