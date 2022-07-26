@@ -35,6 +35,19 @@ public class EntradaDadosTeclado {
 		System.out.println(" O valor de x agora está valendo: " + x);
 
 		leia.close();
+
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
 	}
 
 }
