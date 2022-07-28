@@ -3,9 +3,11 @@ package aulas;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class aula220722 {
+public class Exercicios22Julho {
 
 	public static void main(String[] args) {
+		
+		
 		Scanner leia = new Scanner(System.in).useLocale(Locale.US);
 
 		/*
@@ -159,13 +161,7 @@ public class aula220722 {
 		
 		
 		leia.close();
-		
-		
-		
-		
-		
-		
-		
+
 	}
 
 }
