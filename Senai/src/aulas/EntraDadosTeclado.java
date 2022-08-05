@@ -23,10 +23,10 @@ public class EntraDadosTeclado {
 				System.out.println("entre com o sexo: ");
 				sexo = leia.next().charAt(0);
 
-				System.out.println("O nome digitado foi: " + nome);
-				System.out.println("O nome digitado foi: " + numero);
-				System.out.println(" O sexo digitado foi: " + sexo);
-				System.out.println("x está valendo: " + x);
+				System.out.println("\tO nome digitado foi: " + nome);
+				System.out.println("\tO nome digitado foi: " + numero);
+				System.out.println("\tO sexo digitado foi: " + sexo);
+				System.out.println("\tx está valendo: " + x);
 
 				System.out.println("insira um valor para a variavel x: ");
 				x = leia.nextDouble();
