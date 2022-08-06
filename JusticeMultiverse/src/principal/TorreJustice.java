@@ -104,7 +104,6 @@ public class TorreJustice {
 							System.out.print("\nEsta na Ativa ainda?: ");
 							String estaNaAtiva = leia.next();
 							herois.setEstaNaAtiva(estaNaAtiva);
-							
 														
 							System.out.println(herois);
 							

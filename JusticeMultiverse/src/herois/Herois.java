@@ -2,16 +2,7 @@ package herois;
 
 public class Herois {
 	
-	
-	private String identidadeSecreta;
-	private String universoPertence; 
-	private String nomeDeHeroi;
-	private String planetaNatal;
-	private String pertenceAoGrupoLiga; 
-	private String cidadeNatal; 
-	private String baseSecreta; 
-	private String superPoderes; 
-	private String estaNaAtiva;
+	private String identidadeSecreta,universoPertence,nomeDeHeroi,planetaNatal,pertenceAoGrupoLiga,cidadeNatal,baseSecreta,superPoderes,estaNaAtiva; 
 	private int idade; 
 	
 	 
@@ -94,13 +85,14 @@ public class Herois {
 
 	public String getEstaNaAtiva() {
 		return estaNaAtiva;
-
 	}
 
 	public void setEstaNaAtiva(String estaNaAtiva) {
-				this.estaNaAtiva = estaNaAtiva;
-	        				
+		this.estaNaAtiva = estaNaAtiva;
 	}
+				
+
+		
 	
 	@Override
 	public String toString() {
