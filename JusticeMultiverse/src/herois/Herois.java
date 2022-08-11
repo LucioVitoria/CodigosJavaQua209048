@@ -2,9 +2,9 @@ package herois;
 
 public class Herois {
 	
-	private String identidadeSecreta,universoPertence,nomeDeHeroi,planetaNatal,pertenceAoGrupoLiga,cidadeNatal,baseSecreta,superPoderes,estaNaAtiva; 
+	private String identidadeSecreta,universoPertence,nomeDeHeroi,planetaNatal,pertenceAoGrupoLiga,cidadeNatal,baseSecreta,superPoderes; 
 	private int idade; 
-	
+	private boolean estaNaAtiva;
 	 
 		public Herois() {
 		
@@ -83,11 +83,11 @@ public class Herois {
 		this.idade = idade;
 	}
 
-	public String getEstaNaAtiva() {
+	public boolean getEstaNaAtiva() {
 		return estaNaAtiva;
 	}
 
-	public void setEstaNaAtiva(String estaNaAtiva) {
+	public void setEstaNaAtiva(boolean estaNaAtiva) {
 		this.estaNaAtiva = estaNaAtiva;
 	}
 				

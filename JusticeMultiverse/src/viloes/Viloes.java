@@ -3,16 +3,10 @@ package viloes;
 public class Viloes {
 
 	
-	private String identidadeSecreta;
-	private String universoPertence; 
-	private String nomeDeVilao;
-	private String planetaNatal;
-	private String pertenceAoGrupoLiga; 
-	private String cidadeNatal; 
-	private String baseSecreta; 
-	private String superPoderes; 
+	private String identidadeSecreta,universoPertence,nomeDeVilao,planetaNatal,pertenceAoGrupoLiga,cidadeNatal,baseSecreta,superPoderes;
+	private boolean estaNaAtiva;  
 	private int idade; 
-	private String estaNaAtiva; 
+	  
 	
 	public Viloes() {
 		
@@ -90,11 +84,11 @@ public class Viloes {
 		this.idade = idade;
 	}
 
-	public String getEstaNaAtiva() {
+	public boolean getEstaNaAtiva() {
 		return estaNaAtiva;
 	}
 
-	public void setEstaNaAtiva(String estaNaAtiva) {
+	public void setEstaNaAtiva(boolean estaNaAtiva) {
 		this.estaNaAtiva = estaNaAtiva;
 	}
 	

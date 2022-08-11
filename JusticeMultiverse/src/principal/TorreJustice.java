@@ -55,6 +55,8 @@ public class TorreJustice {
 				Scanner leia= new Scanner(System.in).useLocale(Locale.US);
 				Herois herois = new Herois();
 				Viloes viloes = new Viloes();
+				char sn;
+				
 				for (int i = 0; i < 2; i++) {
 					if (cadastro == 1) {
 						System.out.print("\nDigite ( 1 ) Para herói ou ( 2 ) Para Vilão: ");
@@ -99,11 +101,33 @@ public class TorreJustice {
 							
 							System.out.print("\nIdade: ");
 							int idade = leia.nextInt();
-							herois.setIdade(idade);
+							herois.setIdade(idade);    
 							
-							System.out.print("\nEsta na Ativa ainda?: ");
-							String estaNaAtiva = leia.next();
-							herois.setEstaNaAtiva(estaNaAtiva);
+															
+														
+							System.out.println("Está na ativa? Digite (s) para Sim e (n) para não.");
+							sn = leia.next().charAt(0);
+							
+							while(Character.toUpperCase(sn) != 'S' && Character.toUpperCase(sn) != 'N') {
+								System.out.println("Está na ativa? Digite (s) para Sim e (n) para não.");
+								sn = leia.next().charAt(0);
+							}
+							
+							switch (Character.toUpperCase(sn)) {
+							case 'S':
+								herois.setEstaNaAtiva(true);
+								break;
+								
+							case 'N':
+								herois.setEstaNaAtiva(false);
+								break;
+
+							default:
+								System.out.println("comando incorreto!");
+								break;
+							}
+							
+																																			
 														
 							System.out.println(herois);
 							
@@ -150,9 +174,31 @@ public class TorreJustice {
 							int idade = leia.nextInt();
 							viloes.setIdade(idade);
 							
-							System.out.print("Está na ativa ainda?: ");
-							String estaNaAtiva = leia.next();
-							viloes.setEstaNaAtiva(estaNaAtiva);
+							
+							System.out.println("Está na ativa? Digite (s) para Sim e (n) para não.");
+							sn = leia.next().charAt(0);
+							
+							while(Character.toUpperCase(sn) != 'S' && Character.toUpperCase(sn) != 'N') {
+								System.out.println("Está na ativa? Digite (s) para Sim e (n) para não.");
+								sn = leia.next().charAt(0);
+							}
+							
+							switch (Character.toUpperCase(sn)) {
+							case 'S':
+								viloes.setEstaNaAtiva(true);
+								break;
+								
+							case 'N':
+								viloes.setEstaNaAtiva(false);
+								break;
+
+							default:
+								System.out.println("comando incorreto!");
+								break;
+							}
+							
+							
+							
 							
 							System.out.println(viloes);
 						}
